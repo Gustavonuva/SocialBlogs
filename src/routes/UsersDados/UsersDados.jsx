@@ -38,10 +38,10 @@ const UsersDates = () => {
             </div>
             <div>
               <h3>Endereço</h3>
-              <p>{userData.address?.city}</p>
-              <p>{userData.address?.street}</p>
-              <p>{userData.address?.suite}</p>
-              <p>{userData.address?.zipcode}</p>
+              <p>Cidade: {userData.address?.city}</p>
+              <p>Rua: {userData.address?.street}</p>
+              <p>Apartamento: {userData.address?.suite}</p>
+              <p>Codigo postal: {userData.address?.zipcode}</p>
             </div>
           </Content>
         </div>
