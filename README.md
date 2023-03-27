@@ -1,7 +1,7 @@
 # SocialBlogs
 
 ## 🚀 Começando
-Primeiros passos para clonagem do projeto é acessar o repositório no [GitLab](http://gitlab.ojc.com.br/gjc/adm/diva/diva-catalog-web)
+Primeiros passos para clonagem do projeto é acessar o repositório no [Github](https://github.com/Gustavonuva/SocialBlogs)
 Via prompt:
 ```
 $ git clone https://github.com/Gustavonuva/SocialBlogs
@@ -11,7 +11,7 @@ Via VSCode:
 No [GitHub](https://github.com/Gustavonuva/SocialBlogs), navegue até a página principal do 
 repositório. Acima da lista de arquivos, clique em "Clone" e escolha copiar de "Clone with HTTP".
 A seguir abra o VSCode e clique na opção "Clonar um repositorio Git..." 
-e consequentemente cole o link copiado do GitLab.
+e consequentemente cole o link copiado do Github.
 ```
 
 ## 🔧 Instalação
