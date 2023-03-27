@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar h2 a {
+  opacity: 1;
+}
+
+ul {
+  display: flex;
+  margin-right: 30px;
+  gap: 1rem;
+}
+
+.new-btn {
+  font-weight: bold;
+  border: 1px solid #fff;
+  padding: 0.5rem 1rem;
+  border-radius: ;
+}
+
+.nav li {
+  display: flex;
+  flex-direction: row;
+  justify-content: nowrap;
+}
