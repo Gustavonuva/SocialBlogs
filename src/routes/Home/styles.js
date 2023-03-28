@@ -68,12 +68,6 @@ export const Content = styled.div`
   }
   @media (max-width: 758px) {
     height: auto;
-
-    > div {
-      > a {
-        margin-top: 50px;
-      }
-    }
   }
 
   @media (max-width: 430px) {
