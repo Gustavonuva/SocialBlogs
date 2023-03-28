@@ -53,12 +53,13 @@ export const Content = styled.div`
     opacity: 0.8;
   }
 
-  @media (min-width: 798px) {
+  @media (max-width: 758px) {
     height: auto;
   }
 
-  @media (min-width: 330px) {
-    width: 100%;
+  @media (max-width: 430px) {
     height: auto;
+    display: block;
+    display: flex;
   }
 `;
