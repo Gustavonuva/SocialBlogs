@@ -25,17 +25,16 @@ export const Content = styled.div`
   width: 100%;
   margin-top: 2px;
   padding: 15px;
-  height: 110px;
+  height: auto;
   border-radius: 20px;
   box-shadow: 20px 20px 15px 3px rgba(50, 50, 50, 0.22);
   background: #fff;
   margin-bottom: 40px;
   > div {
     align-items: flex-start;
-    margin-bottom: 50px;
     > h1 {
       display: flex;
-      margin-bottom: 10px;
+      position: absolute;
       justify-content: center;
     }
     > h3,
@@ -58,7 +57,6 @@ export const Content = styled.div`
       display: flex;
       background-color: black;
       color: #fff;
-      text-align: center;
       justify-content: center;
       opacity: 1;
       font-weight: bold;
@@ -67,5 +65,20 @@ export const Content = styled.div`
       background-color: #9a9aa5;
       color: #000;
     }
+  }
+  @media (max-width: 758px) {
+    height: auto;
+
+    > div {
+      > a {
+        margin-top: 50px;
+      }
+    }
+  }
+
+  @media (max-width: 430px) {
+    height: auto;
+    display: block;
+    display: flex;
   }
 `;

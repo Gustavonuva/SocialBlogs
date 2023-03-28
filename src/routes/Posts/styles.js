@@ -32,7 +32,6 @@ export const Content = styled.div`
   margin-bottom: 40px;
   > div {
     align-items: flex-start;
-    margin-bottom: 50px;
     > h1 {
       display: flex;
       margin-bottom: 10px;
@@ -52,5 +51,14 @@ export const Content = styled.div`
   &:hover {
     cursor: pointer;
     opacity: 0.8;
+  }
+
+  @media (min-width: 798px) {
+    height: auto;
+  }
+
+  @media (min-width: 330px) {
+    width: 100%;
+    height: auto;
   }
 `;
